@@ -1,0 +1,37 @@
+/* BASIC STYLES HERE */
+body{
+    background-image: url(https://i.pinimg.com/originals/87/ec/9a/87ec9aef20830284ea49ca3cab58df14.gif);
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    overflow-y: hidden;
+}
+
+nav.color{
+    background: #ec4747;
+}
+
+.all-pokemon-card{
+    height: 85vh;
+    overflow-y: auto;
+    border: 2px solid;
+    border-radius: 3px;
+    border-color: #333232;
+    overflow-y: auto;
+    text-transform: capitalize;
+}
+.active-pokemon-card{
+    height: 55vh;
+    overflow-y: auto;
+    border: 2px solid;
+    border-radius: 3px;
+    border-color: #333232;
+}
+.sandbox-pokemon-card{
+    height: 28vh;
+    overflow-y: auto;
+    border: 2px solid;
+    border-radius: 3px;
+    border-color: #333232;
+    overflow-y: auto;
+}
