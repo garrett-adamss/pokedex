@@ -4,7 +4,7 @@ body{
     background-position: center;
     background-size: cover;
     min-height: 100vh;
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
 }
 
 nav.color{
@@ -23,6 +23,13 @@ nav.color{
 .active-pokemon-card{
     height: 55vh;
     overflow-y: auto;
+}
+.pokemon-img{
+    max-height: 15vh
+}
+.pokeman-detail-card{
+    height: 18vh;
+    width: 75%;
     border: 2px solid;
     border-radius: 3px;
     border-color: #333232;
