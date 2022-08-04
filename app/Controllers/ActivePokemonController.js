@@ -6,7 +6,6 @@ function _draw(){
         return 
     }
     document.getElementById('active-pokemon').innerHTML = ProxyState.activePokemon.ActivePokemonTemplate
-
 }
 
 export class ActivePokemonController{ 
